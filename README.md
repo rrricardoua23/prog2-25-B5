@@ -26,7 +26,7 @@ Repositorio del Grupo B5 - ProSalud
 * Asociar un paciente con su médico de cabecera  de manera aleatoria y luego recargar la base de datos (María)
 * Según edad y tipo de paciente, alergias o demás información crucial, como el calendario de vacunación. (Carla)
 * Gestión de habitaciones para los pacientes según si están libres, ocupadas, si son de la UCI, box... (Ricardo)
-* Creación de SIP de cada paciente cuando se da de alta con la información correspondiente (Sara)  
+* Creación de la SIP de cada paciente cuando se da de alta con la información correspondiente (Sara)  
 
 ## Instrucciones de instalación y ejecución
 [//]: # (Indicad aquí qué habría que hacer para ejecutar vuestra aplicación)
