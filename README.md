@@ -9,14 +9,14 @@ Repositorio del Grupo B5 - ProSalud
 * (Coordinador) María Mestre Sánchez (https://github.com/mms254)
 * Alicia Frías González (https://github.com/amfg15)
 * Carla Carreras Villarejo (https://github.com/Carlacarreras)
-* Ricardo López Moya (https://github.com/alumno4)
-* Sara Pérez Peraza (https://github.com/alumno5)
+* Ricardo López Moya (https://github.com/rrricardoua23)
+* Sara Pérez Peraza (https://github.com/Saraperezperaza)
 
 ## Profesor
 [//]: # [Miguel A. Teruel] (https://github.com/materuel-ua)
 
 ## Requisitos
-[//]: # (Indicad aquí los requisitos de vuestra aplicación, así como el alumno responsable de cada uno de ellos)
+[//]: # (Requisitos y alumno responsable:)
 * Informe médico final de cada paciente en formato pdf, y un calendario de citas de cada paciente. (Ricardo
 * Permitirá la gestión de usuarios (pacientes dados de alta, baja, graves, menores, ancianos...) y roles de sistema (pacientes, médicos, enfermeros, limpieza...) . (Carla)
 * Realización de una base de datos donde estén registrados los trabajadores, pacientes, horarios... (Sara)
