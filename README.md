@@ -16,7 +16,7 @@ Repositorio del Grupo B5 - ProSalud
 [//]: # [Miguel A. Teruel] (https://github.com/materuel-ua)
 
 ## Requisitos
-[//]: # (Requisitos y alumno responsable:)
+[//]: # Requisitos y alumno responsable:
 * Informe médico final de cada paciente en formato pdf, y un calendario de citas de cada paciente. (Ricardo
 * Permitirá la gestión de usuarios (pacientes dados de alta, baja, graves, menores, ancianos...) y roles de sistema (pacientes, médicos, enfermeros, limpieza...) . (Carla)
 * Realización de una base de datos donde estén registrados los trabajadores, pacientes, horarios... (Sara)
