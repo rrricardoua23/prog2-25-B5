@@ -13,3 +13,10 @@ class Medicamento:
                 f'Precio: {self.precio}\n'
                 f'Fecha: {self.fecha_caducidad}\n'
                 f'Alergenos: {self.alergenos}\n')
+        return info
+    def verificar_caducidad(self):
+        fecha_actual = datetime.now().date()
+        if self.fecha_caducidad < fecha_actual:
+            return f'El medicamento {self.nombre} ha caducado el {self.fecha_caducidad}.'
+        else:
+            return f'El medicamento {self.nombre} está dentro de su periodo de validez.'
