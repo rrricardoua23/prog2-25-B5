@@ -31,4 +31,14 @@ class Auxiliar (Trabajador):
                 return habitacion.limpia
             else:
                 print(f'La habitacion {habitacion.numero} ya está limpia')
-# Añadir asignar enfermero
+
+    def asignar_enfermero(self, enfermero):
+        if self.enfermero_asignado is not None:
+            print(f'Error, este auxiliar ya tiene un enfermero asignado: {self.enfermero_asignado.nombre}')
+            return
+        if enfermero.auxiliar_asignado is not None:
+            print(f'El enfermero {enfermero.nombre} ya está asignado')
+            return
+        self.enfermero_asignado = enfermero
+        enfermero.auxiliar_asignado = self
+        print(f'El enfermero {enfermero.nombre} se ha asignado correctamente al auxiliar {self.nombre}')
