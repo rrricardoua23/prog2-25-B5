@@ -10,6 +10,9 @@ class Ambulancia:
         self.sirena = sirena
         self.paramedicos = []
         Ambulancia.cantidad +=1
+    @classmethod
+    def cantidad_ambulancias(cls):
+        return cls.cantidad
 
     def agregar_paramedico(self, paramedico):
         if paramedico in self.paramedicos:
@@ -20,6 +23,7 @@ class Ambulancia:
 
     def recoger_paciente(self, paciente):
         self.paciente = paciente
+        estado = paciente.estado.lower()
         if self.paciente.estado.lower() == 'urgente':
             velmax = 200
         if self.paciente.estado.lower() == 'grave':
@@ -29,3 +33,6 @@ class Ambulancia:
         else:
             velmax = 0
         return velmax
+
+    def __str__(self):
+        return f'Ambulancia {self.matricula} - Zona: {self.zona} - Modelo: {self.modelo} - Sirena: {self.sirena}'
