@@ -1,6 +1,6 @@
 from provincia import Provincia
-ids_usados = set()
 class Centro(Provincia):
+    ids_usados = set()
     def __init__(self, nombre_comunidad, nombre_provincia, id_centro, nombre_centro, cantidad_trabajadores, presupuesto,
                  habitaciones):
         super().__init__(nombre_comunidad, nombre_provincia)
@@ -14,7 +14,7 @@ class Centro(Provincia):
         Centro.ids_usados.add(id_centro)
         if presupuesto <0:
             raise ValueError('No se admiten presupuestos negativos')
-        if cantidad_trabajadores>0:
+        if cantidad_trabajadores<0:
             raise ValueError('NO se adimiten cantidades negativas de trabajadores')
         if habitaciones<0:
             raise ValueError('No se adimiten habitaciones negativas')

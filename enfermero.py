@@ -40,7 +40,7 @@ class Enfermero (Trabajador):
         else:
             pacientes_info = f'Pacientes asignados: '
             for paciente in self.pacientes_asignados:
-                 pacientes_info +='Nombre: {paciente.nombre} - Apellido: {paciente.apellido} - ID: {paciente.id}'
+                 pacientes_info += f'Nombre: {paciente.nombre} - Apellido: {paciente.apellido} - ID: {paciente.id}'
             return pacientes_info
     def __str__(self):
         return(f'ID: {self.id} - Nombre: {self.nombre} - Apellido {self.apellido} - Edad {self.edad} - Género {self.genero} - Turno: {self.turno} '

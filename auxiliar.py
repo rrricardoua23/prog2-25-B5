@@ -24,13 +24,15 @@ class Auxiliar (Trabajador):
         return nuevo_salario
 
     def limpiar_habitacion(self, habitaciones):
+        habitaciones_limpiadas = []
         for habitacion in habitaciones:
             if not habitacion.limpia:
                 habitacion.limpia = True
                 print(f'La habitacion {habitacion.numero}a sido limpia, nuevo estado de la limpieza de la habitacion:')
-                return habitacion.limpia
+                habitaciones_limpiadas.append(habitacion)
             else:
                 print(f'La habitacion {habitacion.numero} ya está limpia')
+        return habitaciones_limpiadas
 
     def asignar_enfermero(self, enfermero):
         if self.enfermero_asignado is not None:

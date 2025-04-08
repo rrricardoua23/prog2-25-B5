@@ -16,4 +16,5 @@ class Cita(ABC):
     @abstractmethod
     def ser_atendido(self):
         self.atendido = True
+        self.estado = 'completado'
         return self.atendido

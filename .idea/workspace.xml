@@ -7,15 +7,22 @@
     <list default="true" id="37f502d5-4c84-48e7-afeb-c1e167116130" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ambulancia.py" beforeDir="false" afterPath="$PROJECT_DIR$/ambulancia.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analgesico.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/anestesicos.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/antibioticos.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/antifungicos.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/antiinflamatorios.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/auxiliar.py" beforeDir="false" afterPath="$PROJECT_DIR$/auxiliar.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/centro.py" beforeDir="false" afterPath="$PROJECT_DIR$/centro.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/citas.py" beforeDir="false" afterPath="$PROJECT_DIR$/citas.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/comunidad.py" beforeDir="false" afterPath="$PROJECT_DIR$/comunidad.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/documento.py" beforeDir="false" afterPath="$PROJECT_DIR$/documento.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/enfermedades.py" beforeDir="false" afterPath="$PROJECT_DIR$/enfermedades.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/enfermero.py" beforeDir="false" afterPath="$PROJECT_DIR$/enfermero.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/habitacion.py" beforeDir="false" afterPath="$PROJECT_DIR$/habitacion.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/medicamento.py" beforeDir="false" afterPath="$PROJECT_DIR$/medicamento.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medico.py" beforeDir="false" afterPath="$PROJECT_DIR$/medico.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/paciente.py" beforeDir="false" afterPath="$PROJECT_DIR$/paciente.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitaminicos.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,6 +101,24 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="tests" factoryName="Autodetect">
+      <module name="prog2-25-B5" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -118,7 +143,8 @@
       <workItem from="1743796461475" duration="738000" />
       <workItem from="1744011161519" duration="645000" />
       <workItem from="1744038033181" duration="746000" />
-      <workItem from="1744120747174" duration="8598000" />
+      <workItem from="1744120747174" duration="8694000" />
+      <workItem from="1744129461890" duration="6712000" />
     </task>
     <servers />
   </component>
